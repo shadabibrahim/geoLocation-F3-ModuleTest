@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap" rel="stylesheet"');
+
+* {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#heading {
+  font-size: 4rem;
+  margin: 3.5rem 0 1rem 3.5rem;
+}
+
+#get-data {
+  margin: 0 0 1rem 4.5rem;
+  padding: 0.7rem 5rem;
+  background-color: black;
+  color: white;
+  border: 3px groove wheat;
+  border-radius: 1.3rem;
+
+}
+

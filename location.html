@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Your Location</title>
+  <link rel="stylesheet" href="location.css">
+</head>
+
+<body>
+  <h1 id="heading">My Public IP Address: <span id="ipAdd"></span> </h1>
+  <div id="outer-details-flex">
+    <div class="outer">
+      <p class="outer_section">Lat: <span id="latitude"></span></p>
+      <p class="outer_section">Long: <span id="longitude"></span></p>
+    </div>
+
+    <div class="outer">
+      <p class="outer_section">City: <span id="city_Name"></span></p>
+      <p class="outer_section">Region: <span id="regionName"></span></p>
+    </div>
+
+    <div class="outer">
+      <p class="outer_section">Organization: <span id="orgName"></span></p>
+      <p class="outer_section">Hostname: <span id="hostName"></span></p>
+    </div>
+  </div>
+
+  <div id="map-display"></div>
+
+  <div id="additional-data">
+    <p class="innerData"> Time Zone: <span id="time-zone"></span></p>
+    <p class="innerData"> Date and Time: <span id="date-time"></span></p>
+    <p class="innerData"> Pincode: <span id="pincode"></span></p>
+    <p class="innerData"> Message: <span id="message"></span></p>
+
+  </div>
+
+  <input type="text" id="search-box" name="search-box" class="hidden" placeholder="Search">
+
+  <div id="card"></div>
+  </div>
+
+  <script src="location.js"></script>
+</body>
+
+</html>
